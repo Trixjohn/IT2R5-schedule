@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(skyblue, white);
+    min-height: 100vh; /* Makes body fill the viewport */
+    margin: 0; /* Removes default margin */
+    font-family: 'Times New Roman', Times, serif;
+}
+.img    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+.header
+{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 50px;
+    margin: 20px auto;
+    width: fit-content;
+}
+.monday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+.tuesday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+.wednesday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+.thursday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+.friday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+.saturday{
+    flex: 1;
+    min-width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
